@@ -1,0 +1,127 @@
+# Blender MTL File: 'CGT_UV_Export.blend'
+# Material Count: 9
+
+newmtl Body
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump D:\\PORSCHE Carrera GT\\Export_to_textured\\CGT_Texture_Export\\CGT_UV_Export_Body_Normal.png
+map_Kd D:\\PORSCHE Carrera GT\\Export_to_textured\\CGT_Texture_Export\\CGT_UV_Export_Body_BaseColor.png
+map_Ke D:\\PORSCHE Carrera GT\\Export_to_textured\\CGT_Texture_Export\\CGT_UV_Export_Body_Emissive.png
+map_Ns D:\\PORSCHE Carrera GT\\Export_to_textured\\CGT_Texture_Export\\CGT_UV_Export_Body_Roughness.png
+refl D:\\PORSCHE Carrera GT\\Export_to_textured\\CGT_Texture_Export\\CGT_UV_Export_Body_Metallic.png
+
+newmtl Caliper
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump D:\\PORSCHE Carrera GT\\Export_to_textured\\Wheels\\Wheels_Baked_textures\\wheels_Caliper_Normal.png
+map_Kd D:\\PORSCHE Carrera GT\\Export_to_textured\\Wheels\\Wheels_Baked_textures\\wheels_Caliper_BaseColor.png
+map_Ke D:\\PORSCHE Carrera GT\\Export_to_textured\\Wheels\\Wheels_Baked_textures\\wheels_Caliper_Emissive.png
+map_Ns D:\\PORSCHE Carrera GT\\Export_to_textured\\Wheels\\Wheels_Baked_textures\\wheels_Caliper_Roughness.png
+refl D:\\PORSCHE Carrera GT\\Export_to_textured\\Wheels\\Wheels_Baked_textures\\wheels_Caliper_Metallic.png
+
+newmtl Details
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump D:\\PORSCHE Carrera GT\\Export_to_textured\\CGT_Texture_Export\\CGT_UV_Export_Details_Normal.png
+map_Kd D:\\PORSCHE Carrera GT\\Export_to_textured\\CGT_Texture_Export\\CGT_UV_Export_Details_BaseColor.png
+map_Ke D:\\PORSCHE Carrera GT\\Export_to_textured\\CGT_Texture_Export\\CGT_UV_Export_Details_Emissive.png
+map_Ns D:\\PORSCHE Carrera GT\\Export_to_textured\\CGT_Texture_Export\\CGT_UV_Export_Details_Roughness.png
+refl D:\\PORSCHE Carrera GT\\Export_to_textured\\CGT_Texture_Export\\CGT_UV_Export_Details_Metallic.png
+
+newmtl Glass
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 0.459091
+illum 6
+
+newmtl Light_glass
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 0.227273
+illum 9
+
+newmtl Roter
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump D:\\PORSCHE Carrera GT\\Export_to_textured\\Wheels\\Wheels_Baked_textures\\wheels_Roter_Normal.png
+map_Kd D:\\PORSCHE Carrera GT\\Export_to_textured\\Wheels\\Wheels_Baked_textures\\wheels_Roter_BaseColor.png
+map_Ke D:\\PORSCHE Carrera GT\\Export_to_textured\\Wheels\\Wheels_Baked_textures\\wheels_Roter_Emissive.png
+map_Ns D:\\PORSCHE Carrera GT\\Export_to_textured\\Wheels\\Wheels_Baked_textures\\wheels_Roter_Roughness.png
+refl D:\\PORSCHE Carrera GT\\Export_to_textured\\Wheels\\Wheels_Baked_textures\\wheels_Roter_Metallic.png
+
+newmtl Wheel_Blue
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump D:\\PORSCHE Carrera GT\\Export_to_textured\\Wheels\\Wheels_Baked_textures\\wheels_Wheel-B_Normal.png
+map_Kd D:\\PORSCHE Carrera GT\\Export_to_textured\\Wheels\\Wheels_Baked_textures\\wheels_Wheel-B_BaseColor.png
+map_Ke D:\\PORSCHE Carrera GT\\Export_to_textured\\Wheels\\Wheels_Baked_textures\\wheels_Wheel-B_Emissive.png
+map_Ns D:\\PORSCHE Carrera GT\\Export_to_textured\\Wheels\\Wheels_Baked_textures\\wheels_Wheel-B_Roughness.png
+refl D:\\PORSCHE Carrera GT\\Export_to_textured\\Wheels\\Wheels_Baked_textures\\wheels_Wheel-B_Metallic.png
+
+newmtl Wheel_red
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump D:\\PORSCHE Carrera GT\\Export_to_textured\\Wheels\\Wheels_Baked_textures\\wheels_Wheel-R_Normal.png
+map_Kd D:\\PORSCHE Carrera GT\\Export_to_textured\\Wheels\\Wheels_Baked_textures\\wheels_Wheel-R_BaseColor.png
+map_Ke D:\\PORSCHE Carrera GT\\Export_to_textured\\Wheels\\Wheels_Baked_textures\\wheels_Wheel-R_Emissive.png
+map_Ns D:\\PORSCHE Carrera GT\\Export_to_textured\\Wheels\\Wheels_Baked_textures\\wheels_Wheel-R_Roughness.png
+refl D:\\PORSCHE Carrera GT\\Export_to_textured\\Wheels\\Wheels_Baked_textures\\wheels_Wheel-R_Metallic.png
+
+newmtl Wing
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump D:\\PORSCHE Carrera GT\\Export_to_textured\\CGT_Texture_Export\\CGT_UV_Export_Wing_Normal.png
+map_Kd D:\\PORSCHE Carrera GT\\Export_to_textured\\CGT_Texture_Export\\CGT_UV_Export_Wing_BaseColor.png
+map_Ke D:\\PORSCHE Carrera GT\\Export_to_textured\\CGT_Texture_Export\\CGT_UV_Export_Wing_Emissive.png
+map_Ns D:\\PORSCHE Carrera GT\\Export_to_textured\\CGT_Texture_Export\\CGT_UV_Export_Wing_Roughness.png
+refl D:\\PORSCHE Carrera GT\\Export_to_textured\\CGT_Texture_Export\\CGT_UV_Export_Wing_Metallic.png

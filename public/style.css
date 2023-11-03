@@ -1,5 +1,41 @@
 body {
-    margin: 0px;
-    overflow: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.title {
+  font-size: 32px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+.wrap--btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20vh;
+}
+.link {
+  color: white;
+  text-decoration: none;
+}
+button {
+  border-radius: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: none;
+  background-color: purple;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 60px;
+}

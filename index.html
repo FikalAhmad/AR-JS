@@ -5,7 +5,7 @@
   <script src="https://rawgit.com/mayognaise/aframe-gif-shader/master/dist/aframe-gif-shader.min.js"></script>
   <body>
     <a-scene embedded arjs>
-      <a-marker
+      <!-- <a-marker
         type="pattern"
         url="pattern-174125789_594070895323093_37739543886445794_n.patt"
       >
@@ -16,23 +16,39 @@
           rotation="3 3 3"
           animation="property: rotation; to: 0 360 0; loop: true; dur: 7000"
         />
-      </a-marker>
+      </a-marker> -->
       <a-marker type="pattern" url="earth.patt">
         <a-image
-          src="bumidesc.png"
+          src="assets/bumi.png"
           position="0 0 0"
           scale="2 2 2"
           rotation="90 2 180"
         />
       </a-marker>
-      <!-- <a-marker type="pattern" url="birza.patt">
+      <a-marker type="pattern" url="moon.patt">
         <a-image
-          src="bumidesc.png"
+          src="assets/bulan.png"
           position="0 0 0"
           scale="2 2 2"
           rotation="90 2 180"
         />
-      </a-marker> -->
+      </a-marker>
+      <a-marker type="pattern" url="sun.patt">
+        <a-image
+          src="assets/matahari.png"
+          position="0 0 0"
+          scale="2 2 2"
+          rotation="90 2 180"
+        />
+      </a-marker>
+      <a-marker type="pattern" url="asteroid.patt">
+        <a-image
+          src="assets/asteroid.png"
+          position="0 0 0"
+          scale="2 2 2"
+          rotation="90 2 180"
+        />
+      </a-marker>
       <a-entity camera></a-entity>
     </a-scene>
   </body>

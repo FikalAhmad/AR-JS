@@ -7,51 +7,63 @@
   </head>
   <body>
     <main class="main">
-      <h2>CARA PENGGUNAAN</h2>
-      <div class="btn">
-        <button class="accordion">Cara ke 1</button>
-        <div class="panel">
+      <h2 class="title">CARA PENGGUNAAN</h2>
+      <div class="steps-container">
+        <div class="step" id="step1">
+          <h2 class="step-title">Langkah 1</h2>
           <p>
             Pada tampilan menu pertama, tekan tombol mulai untuk memulai
             aplikasi.
           </p>
         </div>
-
-        <button class="accordion">Cara ke 2</button>
-        <div class="panel">
+        <div class="step" id="step2">
+          <h2 class="step-title">Langkah 2</h2>
           <p>
             Lalu, anda akan melihat sebuah izin untuk menyalakan kamera, tekan
             allow / izinkan.
           </p>
         </div>
-
-        <button class="accordion">Cara ke 3</button>
-        <div class="panel">
+        <div class="step" id="step3">
+          <h2 class="step-title">Langkah 3</h2>
           <p>
             Arahkan ke bagian marker dan pastikan kamera dengan kondisi
             pencahayaan yang jelas dan tidak buram.
           </p>
         </div>
-
-        <div>
-          <button class="back-button">Kembali</button>
+        <div class="wrap-btn">
+          <button onclick="changeStep(-1)">Previous</button>
+          <button onclick="changeStep(1)">Next</button>
         </div>
+      </div>
+      <div class="btn-back-div">
+        <button class="btn-back">
+          <a href="/index.html" class="link">Kembali</a>
+        </button>
       </div>
 
       <script>
-        var acc = document.getElementsByClassName("accordion");
-        var i;
+        let currentStep = 1;
+        showStep(currentStep);
 
-        for (i = 0; i < acc.length; i++) {
-          acc[i].addEventListener("click", function () {
-            this.classList.toggle("active");
-            var panel = this.nextElementSibling;
-            if (panel.style.display === "block") {
-              panel.style.display = "none";
-            } else {
-              panel.style.display = "block";
-            }
+        function changeStep(n) {
+          showStep((currentStep += n));
+        }
+
+        function showStep(n) {
+          const steps = document.querySelectorAll(".step");
+
+          if (n > steps.length) {
+            currentStep = 1;
+          }
+          if (n < 1) {
+            currentStep = steps.length;
+          }
+
+          steps.forEach((step) => {
+            step.style.display = "none";
           });
+
+          steps[currentStep - 1].style.display = "block";
         }
       </script>
     </main>

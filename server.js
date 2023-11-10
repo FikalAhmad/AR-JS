@@ -6,8 +6,8 @@ app.use(morgan("dev"));
 app.use(express.static(path.join(__dirname, "/")));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-app.get("/", (req, res) => {
-  res.render("index");
+app.get("/camera", (req, res) => {
+  res.render("camera");
 });
 app.listen(3000, () => {
   console.log("listening on port 3000");
